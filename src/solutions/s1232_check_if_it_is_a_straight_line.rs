@@ -15,6 +15,7 @@ impl Solution {
     }
 }
 
+/// Find the slope of the line by joining points `a` and `b`
 fn find_slope(a: &[i32], b: &[i32]) -> f32 {
     let y_diff = b[1] - a[1];
     let x_diff = b[0] - a[0];
